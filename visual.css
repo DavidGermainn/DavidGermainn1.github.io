@@ -1,0 +1,114 @@
+body {    
+    background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/2018/newsimulatio.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    font-family: Roboto, sans-serif;
+    }
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.header img {
+    width: 220px;
+    height: 50px;
+}
+
+.watch-dogs {
+    float: right;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: -25px;
+}
+.watch-dogs img {
+    height: 150px;
+    width: 170px;
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.page-title {
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: -30px;
+}
+.main-container {
+    width: 100%;
+    margin-top: 5%;
+}
+.left-text {
+    float: left;
+    width: 20%;
+    height: 60%;
+    margin-left: 2%;
+}
+.left-text h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+.left-text p {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.gif-container {
+    float: right;
+    margin-right: 10%;
+}
+.gif-box img {
+    width: 280px;
+    height: 280px;
+    padding: 30px;
+    opacity: 0.9;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+        margin-right: 0px;
+    }
+    .watch-dogs {
+        margin-top: -140px;
+    }
+    .watch-dogs img {
+        height: 100px;
+        width: 120px;
+    }
+}

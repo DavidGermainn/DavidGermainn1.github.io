@@ -1,0 +1,146 @@
+body {
+    background-image: url('https://i.giphy.com/media/oyMXWBCmzWsko/giphy.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    font-family: Roboto, sans-serif;
+    }
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.header img {
+    width: 220px;
+    height: 50px;
+}
+.watch-dogs {
+    float: right;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: -25px;
+}
+.watch-dogs img {
+    height: 150px;
+    width: 170px;
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.space-video {
+    display: none;
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    opacity: 0;
+}
+.header-second {
+    overflow: hidden;
+}
+.header-second div{
+    float: left;
+}
+.header-second h2{
+    color: white;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.text-one {
+    margin-left: 50px;
+}
+.header-second img {
+    height: 60px;
+    width: 50px;
+    padding: 5px 5px;
+}
+
+.paragraph-container {
+    width: 15%;
+    margin-left: 200px;
+    margin-bottom: -50px;
+    display: block;
+}
+.paragraph-container h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+}
+.paragraph-container p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.trip-button-container {
+    overflow: hidden;
+    padding: 40px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.trip-button-container button {
+    border: 2px solid white;
+    background-color: #473943;
+    padding: 10px;
+    color: #0affed;
+    font-size: 18px;
+}
+.rocket {
+    overflow: hidden;
+    display: block;
+    margin-left: 220px;
+}
+.rocket img {
+    width: 200px;
+    height: 180px;
+}
+.footer-text {
+    overflow: hidden;
+    display: block;
+    margin-left: 200px;
+}
+.footer-text {
+    color: white;
+}
+
+.active {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+        margin-right: 0px;
+    }
+    .watch-dogs {
+        margin-top: -140px;
+    }
+    .watch-dogs img {
+        height: 100px;
+        width: 120px;
+    }
+}

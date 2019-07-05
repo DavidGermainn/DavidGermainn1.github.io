@@ -1,0 +1,89 @@
+body {    
+    background-image: url('https://i.gifer.com/5xZ.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    font-family: Roboto, sans-serif;
+    }
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.header img {
+    width: 220px;
+    height: 50px;
+}
+
+.watch-dogs {
+    float: right;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: -25px;
+}
+.watch-dogs img {
+    height: 150px;
+    width: 170px;
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.page-title {
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: -30px;
+}
+.contact-container {
+    width: 100%;
+    text-align: center;
+}
+.bubble {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 28px;
+    margin: 50px;
+    opacity: 0.8;
+}
+.contact-container a {
+    color: black;
+}
+.admin {
+    border: 3px solid grey;
+    background-color: #133E7C;
+    border-radius: 50%;
+}
+.mod {
+    border: 3px solid grey;
+    background-color: #133E7C;
+    border-radius: 50%;
+}
+.hacker {
+    border: 3px solid grey;
+    background-color: #133E7C;
+    border-radius: 50%;
+}
+.info {
+    border: 3px solid grey;
+    background-color: #133E7C;
+    border-radius: 50%;
+}
